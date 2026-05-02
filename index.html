@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agarwal Universal Pvt Ltd | Movers & Packers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #0a1d37;
+            --accent-red: #d32f2f;
+            --light-bg: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light-bg); line-height: 1.6; }
+
+        /* Header & Navigation */
+        header { background: var(--primary-blue); color: var(--white); padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
+        .logo h1 { font-size: 1.5rem; border-left: 5px solid var(--accent-red); padding-left: 10px; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(10, 29, 55, 0.8), rgba(10, 29, 55, 0.8)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=2000'); background-size: cover; height: 60vh; color: var(--white); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        .hero h2 { font-size: 2.5rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 20px; color: #ffeb3b; font-weight: bold; }
+
+        /* Services Grid */
+        .container { padding: 50px 10%; }
+        .section-title { text-align: center; margin-bottom: 40px; color: var(--primary-blue); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .service-card { background: var(--white); padding: 30px; text-align: center; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-bottom: 4px solid var(--accent-red); }
+        .service-card i { font-size: 2.5rem; color: var(--accent-red); margin-bottom: 15px; }
+
+        /* Experience & Stats */
+        .stats-bar { background: var(--accent-red); color: var(--white); display: flex; justify-content: space-around; padding: 30px; text-align: center; }
+        .stat-item h3 { font-size: 2rem; }
+
+        /* Reviews */
+        .reviews { background: #e9ecef; padding: 50px 10%; text-align: center; }
+        .review-card { background: var(--white); padding: 20px; margin: 10px; border-radius: 10px; display: inline-block; width: 300px; text-align: left; }
+        .stars { color: #fbc02d; }
+
+        /* Contact & CTA */
+        .contact-section { display: flex; flex-wrap: wrap; gap: 30px; padding: 50px 10%; background: var(--white); }
+        .contact-info, .quote-form { flex: 1; min-width: 300px; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        .btn { background: var(--accent-red); color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; }
+
+        /* Floating Buttons */
+        .floating-btns { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 1001; }
+        .float-btn { width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: white; font-size: 24px; text-decoration: none; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); }
+        .btn-whatsapp { background: #25d366; }
+        .btn-call { background: #007bff; }
+
+        @media (max-width: 768px) { .hero h2 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>AGARWAL UNIVERSAL pvt LTD Movers & packers</h1>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>ALL INDIA SERVICE</h2>
+    <p>We Move Your Trust With Care</p>
+    <a href="#quote" style="background: white; color: var(--accent-red); padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">GET FREE QUOTATION</a>
+</section>
+
+<div class="stats-bar">
+    <div class="stat-item"><h3>26+</h3><p>Years Experience</p></div>
+    <div class="stat-item"><h3>100%</h3><p>Safe Handling</p></div>
+    <div class="stat-item"><h3>24/7</h3><p>Support</p></div>
+</div>
+
+<section class="container">
+    <h2 class="section-title">Our Specialized Services</h2>
+    <div class="services-grid">
+        <div class="service-card"><i class="fas fa-home"></i><h3>Household Shifting</h3></div>
+        <div class="service-card"><i class="fas fa-building"></i><h3>Office Shifting</h3></div>
+        <div class="service-card"><i class="fas fa-box"></i><h3>Packing & Unpacking</h3></div>
+        <div class="service-card"><i class="fas fa-warehouse"></i><h3>Warehousing Service</h3></div>
+    </div>
+</section>
+
+<section class="reviews">
+    <h2 class="section-title">Customer Reviews</h2>
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Best service for my long-distance move. Very professional staff!"</p>
+        <strong>- Rahul Sharma</strong>
+    </div>
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Everything arrived safely. Their packing quality is excellent."</p>
+        <strong>- Priya V.</strong>
+    </div>
+    
+</section>
+
+<section class="contact-section" id="quote">
+    <div class="contact-info">
+        <h2>Contact Details</h2>
+        <p><i class="fas fa-phone"></i> 9594551888 / 9833542250 / 9867551888</p>
+        <p><i class="fas fa-envelope"></i> agarwalunivarsalpackers99@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> All India Service Coverage</p>
+        <br>
+        <h3>Highly Experienced Staff</h3>
+        <p>Our workers are trained professionals with years of experience in heavy loading and fragile item handling.</p>
+    </div>
+    <div class="quote-form">
+        <h2>Get a Free Quotation</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="text" placeholder="Moving From (City)">
+            <input type="text" placeholder="Moving To (City)">
+            <textarea rows="4" placeholder="Briefly list items to move"></textarea>
+            <button type="submit" class="btn">REQUEST QUOTE</button>
+        </form>
+    </div>
+</section>
+
+<div class="floating-btns">
+    <a href="https://wa.me/919594551888" class="float-btn btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:9594551888" class="float-btn btn-call"><i class="fas fa-phone"></i></a>
+</div>
+
+</body>
+</html>
